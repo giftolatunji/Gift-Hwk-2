@@ -1,0 +1,12 @@
+Response to Question 1:
+The change inside the function call (increment_int_a) changes the variable during the function call. 
+However, the changes are not saved after the function call because the function call takes in variables, but does not have the access to the actual values.
+
+Response to Question 2:
+The change inside increment_int_b changes the variable during and after the function call. 
+The changes made to the variable after the function call remains because the variable, a list, was passed in by refrence.
+
+Response to Question 3: 
+When we pass in a list or dictionary into a function, the changes made to the function call are saved because they are passed in by refrence. 
+Unlike integers that are not passed by refrence, so changes are not saved.
+
