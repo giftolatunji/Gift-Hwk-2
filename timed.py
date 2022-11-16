@@ -5,7 +5,7 @@ def timeme(func):
        t1 = time.time()
        func()
        t2 = time.time()
-       print ("Total time X",(t2-t1))
+       print ("Total time",(t2-t1))
     return wrapper
 
 
